@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef, useState } from 'react';
 import { FaGraduationCap, FaSchool, FaCalendarAlt } from 'react-icons/fa';
 
@@ -60,30 +61,32 @@ const Education = () => {
                         icon={<FaGraduationCap />}
                         degree="Master of Computer Applications (MCA)"
                         school="CMR University"
-                        year="2022 - 2024"
+year="Jan 2023 - Dec 2024"
                         description="Advanced studies in cloud computing, software engineering, and DevOps practices"
                         index={0}
                     />
                     <EducationCard
                         icon={<FaGraduationCap />}
                         degree="Bachelor of Computer Applications (BCA)"
-                        school="Sharnbasva University"
-                        year="2019 - 2022"
+                        school="Sharnbasva University, Kalaburagi"
+                        year="Aug 2020 - Sep 2022"
+
                         description="Foundation in programming, databases, and web development"
                         index={1}
                     />
                     <EducationCard
                         icon={<FaSchool />}
                         degree="Pre-University (PCMB)"
-                        school="Alva's College"
-                        year="2017 - 2019"
-                        description="Physics, Chemistry, Mathematics, and Biology"
+school="Alva's College, Moodabidri, Karnataka"
+                        year="Jun 2018 - Jul 2019"
+                        description="Science - Physics, Chemistry, Mathematics, Biology (PCMB)"
                         index={2}
                     />
                 </div>
             </div>
         </section>
     );
+
 };
 
 export default Education;

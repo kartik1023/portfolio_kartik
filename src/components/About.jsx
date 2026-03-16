@@ -112,7 +112,8 @@ const About = () => {
                         </div>
 
                         <div className="about-stats">
-                            <StatItem number="4" text="Internships" />
+<StatItem number="6" text="Experiences" />
+
 
                             <StatItem number="5" text="Certifications" />
                             <StatItem number="100" text="Commitment" suffix="%" />

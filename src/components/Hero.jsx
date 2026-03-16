@@ -31,10 +31,7 @@ Tools: Git, GitHub, REST APIs, Microservices
 PROFESSIONAL EXPERIENCE:
 
 
-IT Project Intern | Welleazy | Recent
-- Gained hands-on exposure to AWS serverless architecture and cloud deployment strategies
-- Implemented Docker containerization for application deployments, improving efficiency
-- Created comprehensive technical specifications and project documentation
+
 
 Fullstack Developer Intern | Gyaan Vivarttana Technologies | Dec 2023 - Feb 2024
 - Developed responsive web apps using HTML, CSS, and JavaScript
@@ -120,32 +117,9 @@ AVAILABILITY: Immediate Joiner
                     <h1 className="hero-title">
                         Hi, I'm <span className="gradient-text">Kartik Potdar</span>
                     </h1>
-                    <h2 className="hero-subtitle">Executive Project management  Enthusiast Cloud Security and AWS  </h2>
-                    <p className="hero-tagline">Building Scalable, Secure & Automated Cloud Solutions</p>
+                    <h2 className="hero-subtitle">Cloud & DevOps Engineer | Project Management Executive</h2>
 
-                    {/* Quick Highlights Strip */}
-                    <div className="highlights-strip">
-                        <div className="highlight-item">
-                            <i><FaAws /></i>
-                            <span>AWS Certified</span>
-                        </div>
-                        <div className="highlight-item">
-                            <i><FaBriefcase /></i>
-                            <span>4+ Internships</span>
-                        </div>
-                        <div className="highlight-item">
-                            <i><FaDocker /></i>
-                            <span>Docker & CI/CD</span>
-                        </div>
-                        <div className="highlight-item">
-                            <i><FaServer /></i>
-                            <span>Serverless Deployment</span>
-                        </div>
-                        <div className="highlight-item">
-                            <i><FaCode /></i>
-                            <span>Python Automation</span>
-                        </div>
-                    </div>
+                    <p className="hero-tagline">Building Scalable, Secure & Automated Cloud Solutions</p>
 
                     {/* CTA Buttons */}
                     <div className="hero-buttons">

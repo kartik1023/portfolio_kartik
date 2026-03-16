@@ -80,12 +80,17 @@ const Skills = () => {
                             <h3>DevOps & Automation</h3>
                         </div>
                         <div className="skill-items">
+                            <SkillItem name="Software Deployment" levelName="Advanced" percentage={95} />
+                            <SkillItem name="Project Documentation" levelName="Advanced" percentage={90} />
                             <SkillItem name="Docker" levelName="Intermediate" percentage={90} />
+
                             <SkillItem name="Kubernetes" levelName="Intermediate" percentage={75} />
                             <SkillItem name="CI/CD Pipelines" levelName="Intermediate" percentage={80} />
                             <div className="skill-tags">
+                                <span className="tag">CRM</span>
                                 <span className="tag">Jenkins</span>
                                 <span className="tag">GitHub Actions</span>
+
                                 <span className="tag">GitLab CI</span>
                                 <span className="tag">Linux</span>
                                 <span className="tag">Bash Scripting</span>

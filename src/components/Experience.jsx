@@ -66,31 +66,45 @@ const TimelineItem = ({ data, index }) => {
 
 const Experience = () => {
     const experiences = [
+
+        {
+            title: "Project Management Executive",
+            company: "VeriRight",
+            date: "Jan 2026 - Present",
+            impacts: [
+                "Leading IT project management and cross-functional team coordination",
+                "Managing task tracking, milestones, and stakeholder communications for software initiatives",
+                "Ensuring timely project delivery through requirements gathering and follow-ups"
+            ],
+            tech: ["Project Management", "CRM", "Stakeholder Management", "Agile"]
+        },
         {
             title: "IT Project Intern",
-            company: "Welleazy",
-            date: "Top Voice / Recent",
+            company: "VeriRight",
+            date: "Jul 2025 - Jan 2026",
             impacts: [
-                "Gained hands-on exposure to <strong>AWS serverless architecture</strong> and cloud deployment strategies",
-                "Implemented <strong>Docker containerization</strong> for application deployments, improving efficiency",
-                "Created comprehensive technical specifications and project documentation"
+                "Supported software development projects with documentation and coordination",
+                "Assisted cross-functional teams with task tracking and milestone management",
+                "Facilitated stakeholder communication and requirements documentation"
             ],
-            tech: ["AWS", "Docker", "Serverless"]
+            tech: ["Project Documentation", "Software Deployment", "Team Coordination"]
         },
         {
             title: "Fullstack Developer Intern",
-            company: "Gyaan Vivarttana Technologies",
+            company: "Gyaan Vivartanna Technologies",
             date: "Dec 2023 - Feb 2024",
             impacts: [
                 "Developed responsive web apps using <strong>HTML, CSS, and JavaScript</strong>",
                 "Integrated <strong>Flask and MySQL</strong> for secure backend operations",
-                "Enhanced UI/UX design resulting in improved user engagement"
+                "Designed database schema improving page speed by <strong>20%</strong>",
+                "Enhanced UI/UX reducing bounce rate by <strong>15%</strong>",
+                "Managed source code with Git and conducted code reviews"
             ],
-            tech: ["Flask", "MySQL", "JavaScript", "UI/UX"]
+            tech: ["Flask", "MySQL", "JavaScript", "Git", "UI/UX"]
         },
         {
             title: "DevOps Cloud Intern",
-            company: "PRODEVANS(Cloud & Open Source Solutions)",
+            company: "Prodevans",
             date: "Jan 2022 - Jul 2022",
             impacts: [
                 "Deployed containerized applications with <strong>Docker and Kubernetes</strong>, cutting release time by <strong>40%</strong>",
@@ -104,12 +118,14 @@ const Experience = () => {
             company: "Softek Solutions Pvt. Ltd",
             date: "May 2022 - Jun 2022",
             impacts: [
-                "Built web applications using <strong>Flask</strong> for backend and HTML/CSS/JS for frontend",
+                "Built web applications using <strong>Flask</strong> backend with HTML/CSS/JS frontend",
                 "Created and managed databases with <strong>MySQL Workbench</strong>",
-                "Optimized application performance and responsiveness"
+                "Improved backend performance through debugging and modular design",
+                "Practiced Git version control and agile development methods"
             ],
-            tech: ["Python", "Flask", "MySQL"]
+            tech: ["Python", "Flask", "MySQL", "Git", "Agile"]
         }
+
     ];
 
     return (
